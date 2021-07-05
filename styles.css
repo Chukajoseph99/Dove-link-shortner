@@ -214,11 +214,17 @@ font-family:lovelyn;
     margin-left: 5px;
     display: flex;
     transition-duration: 0.2s;
+    cursor: pointer;
   }
   
-  .button:hover {
+  /* .button:hover {
     background-color: rgb(14, 14, 107);;
-  }
+  } */
+
+  .button:hover{
+    background-color: white;
+    color: black;
+    }
   
   #new-url {
     display: flex;
