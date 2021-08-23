@@ -268,3 +268,45 @@ font-family:lovelyn;
      display: block;
      }
   }
+
+@media (max-width: 770px){
+    .sectionOne{
+      height: 100vh;
+    }  
+  }
+
+  @media (max-width: 650px){
+
+    .sectionOne{
+      height: 100vh;
+    }
+
+    .containerOne .content h1{
+      font-size: 40px;
+      }
+ 
+      #content-div {
+        width: 90%;
+      }
+ 
+      #input-div {
+      width: 100%;
+      flex-direction: column;
+      }
+
+      input[type=text] {
+        width: 100%;
+      }
+
+      .buttoni{
+        margin: 10px 0;
+      }
+ 
+    }
+
+    @media (max-width: 375px){
+    .sectionOne{
+      height: 120vh;
+    }
+    }
+
