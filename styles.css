@@ -320,6 +320,7 @@ font-family:lovelyn;
     body{
       height: 110vh;
    }
+}
 
    @media (max-width: 321px){
     body{
