@@ -242,7 +242,7 @@ font-family:lovelyn;
   @media(max-width: 1020px){
     .sectionOne{
 
-      height: auto;
+      height: 100vh;
       padding-bottom: 50px;
       
       }
@@ -283,6 +283,7 @@ font-family:lovelyn;
 
     .containerOne .content h1{
       font-size: 40px;
+      padding-top: 140px;
       }
  
       #content-div {
@@ -308,4 +309,9 @@ font-family:lovelyn;
     .sectionOne{
       height: 120vh;
     }
+
+    .containerOne .content h1{
+      padding-top: 100px;
+
+      }
     }
